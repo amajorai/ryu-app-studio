@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.app-studio",
+  "version": "0.1.0",
+  "description": "Build your own Ryu apps with a drag-and-drop visual editor and chat edits, choose the permissions they may ask for, preview them, and install them into Ryu.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-app-studio",
+  "repository": "https://github.com/amajorai/ryu-app-studio",
+  "keywords": [
+    "app builder",
+    "drag and drop",
+    "visual editor",
+    "no-code",
+    "companion",
+    "apps"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/app-studio",
+      "displayName": "App Studio"
+    }
+  }
+}
